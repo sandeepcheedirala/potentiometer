@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Cheedirala Sandeep",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 67.8, "left": -0.6, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -78.1, "left": 105.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "pot1:GND", "uno:GND.1", "black", [ "v57.6", "h-19.2" ] ],
+    [ "pot1:SIG", "uno:A0", "green", [ "v38.4", "h-192.4", "v268.8", "h259.2" ] ],
+    [ "pot1:VCC", "uno:5V", "red", [ "v48", "h162.4", "v268.8", "h-153.6", "v9.6" ] ]
+  ],
+  "dependencies": {}
+}
